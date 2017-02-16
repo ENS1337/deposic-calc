@@ -20,6 +20,25 @@ int main ()
           (summa = summa + summa / 100 * 3);
       printf("Сумма Равна =  %d\n", summa);
   }
-   
+   if (summa > 9999 && summa < 100000 && srok > 120 && srok < 241) // Вклад 3
+  {
+      (summa = summa + summa / 100 * 6);
+      printf("Сумма Равна =  %d\n", summa);
+  }
+      else if (summa > 99999 && srok > 120 && srok < 241)
+      {
+          (summa = summa + summa / 100 * 8);
+      printf("Сумма Равна =  %d\n", summa);
+  }
+   if (summa > 9999 && summa < 100000 && srok > 240 && srok < 366) // Вклад 4
+   {
+       (summa = summa + summa / 100 * 12);
+      printf("Сумма Равна =  %d\n", summa);
+  }
+      else if (summa > 99999 && srok > 240 && srok < 366)
+      {
+          (summa = summa + summa / 100 * 15);
+      printf("Сумма Равна =  %d\n", summa);
+  }
   return 0;
 }
