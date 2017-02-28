@@ -2,7 +2,7 @@
 
 int main ()
 { int summa; int srok; // Размер вклада и срок
-  printf ("Введите сумму и срок \n");
+  printf ("Введите сумму не менее 10000р и срок не более 365 дней \n");
   scanf ("%d %d",&summa,&srok);
   if (summa > 9999 && srok > 0 && srok < 31) // Вклад 1
   {
