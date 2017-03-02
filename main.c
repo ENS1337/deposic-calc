@@ -9,7 +9,7 @@ int main ()
       (summa = summa - summa / 100 * 10);
       printf("Сумма Равна =  %d\n", summa);
   }
-  if (summa > 9999 && summa < 100000 && srok > 30 && srok < 121) // Вклад 2 
+  if (summa > 9999 && summa < 100000 && srok > 30 && srok < 121) // Вклад 2
 {
       (summa = summa + summa / 100 * 2);
       printf("Сумма Равна =  %d\n", summa);
