@@ -40,7 +40,7 @@ int percent (int summa; int srok) // Размер вклада и срок
       printf("Сумма Равна =  %d\n", summa);
   }
 
-int check(int srok, long int summa) {   
+int check(int srok, long int summa) {
     int k=0;
     if ((srok < 0) || (srok > 365) || (summa < 10000))  k = 0;
     else k = 1;							  
