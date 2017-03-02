@@ -5,13 +5,12 @@ int main ()
   printf ("Введите сумму не менее 10000р и срок не более 365 дней \n");
   scanf ("%d %d",&summa,&srok);
   if (summa > 9999 && srok > 0 && srok < 31) // Вклад 1
-  {
+{
       (summa = summa - summa / 100 * 10);
       printf("Сумма Равна =  %d\n", summa);
   }
-  if (summa > 9999 && summa < 100000 && srok > 30 && srok < 121) // Вклад 2
-      
-  {
+  if (summa > 9999 && summa < 100000 && srok > 30 && srok < 121) // Вклад 2 
+{
       (summa = summa + summa / 100 * 2);
       printf("Сумма Равна =  %d\n", summa);
   }
@@ -40,5 +39,5 @@ int main ()
           (summa = summa + summa / 100 * 15);
       printf("Сумма Равна =  %d\n", summa);
   }
-  return 0;
+return 0;
 }
