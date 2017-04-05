@@ -14,3 +14,11 @@ build/main.o : src/main.c src/deposit.h
 
 build/deposit.o : src/deposit.c src/deposit.h
 	gcc -c src/deposit.c -o build/deposit.o $(CFLAGS)
+	
+clean :
+	rm -rf build/*.d 
+	rm -rf build/*.o
+	rm bin/deposit-calc
+	@echo "All files have been cleaned."
+	
+-include build/*.d
