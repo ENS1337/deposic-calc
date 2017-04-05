@@ -2,18 +2,17 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
-#include <deposit.h>
+#include "deposit.h"
 
 int main() {
     int summa;
     int srok; // Размер вклада и срок
-    char *sum = (char *) malloc(50 * sizeof(char));
-    char *sr = (char *) malloc(50 * sizeof(char));
+    char sum[50];
+    char sr[50];
 
     printf("Введите сумму не менее 10000р и срок не более 365 дней \n");
-    gets(sum);
-    gets(sr);
-
+  scanf("%s",sum);
+  scanf("%s",sr);
     if (is_correct_number(sum) == 1 && is_correct_number(sr) == 1) {
         summa = atoi(sum);
         srok = atoi(sr);

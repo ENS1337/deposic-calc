@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
-#include <deposit.h>
+#include "deposit.h"
 
 short int is_correct_number(char *a) // Проверка правильности ввода
 {

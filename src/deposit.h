@@ -1,4 +1,3 @@
- 
 #ifndef DEPOSIT_CALC_H
 #define DEPOSIT_CALC_H
 
