@@ -2,6 +2,11 @@
 !README.md
 !Makefile
 !*.c
-!.gitignore
 /deposic-calc
- 
+/src/*.*
+!/src/*.h
+!/src/*.c
+/build/*.*
+/bin/*.*
+!/bin/.gitkeep
+!/build/.gitkeep
