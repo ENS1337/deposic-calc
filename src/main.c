@@ -14,14 +14,15 @@ int main() {
     scanf("%d",&srok);
     
     k = check (summa,srok);
-    
-        if (k == 1) 
-        {
-            Bklad (summa,srok);
-        }
-        else { 
-            printf ("Сумма и срок введены неверно \n");
-        }
+
+    if (k == 1)
+      {
+      int sum = Bklad (summa,srok);
+      printf("Сумма равна = %d\n",sum);
+      }
+    else {
+      printf ("Сумма и срок введены неверно \n");
+      }
     return 0;
 }
     
