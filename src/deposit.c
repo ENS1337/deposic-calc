@@ -5,7 +5,7 @@
 #include "deposit.h"
 
 int Bklad(int summa, int srok) {
-    if (summa > 9999 && srok > 0 && srok < 31) // Вклад 1
+    if (summa > 9999 && srok >= 0 && srok < 31) // Вклад 1
     {
         summa = summa - summa / 100 * 10;
     }
@@ -31,7 +31,7 @@ int Bklad(int summa, int srok) {
 }
 
 int check(int summa, int srok) {
-    if ((srok < 0) || (srok > 365) || (summa < 10000)) {
+    if ((srok <= 0) || (srok > 365) || (summa < 10000)) {
         return 0;
     }
     return 1;
