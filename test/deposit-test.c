@@ -105,7 +105,7 @@ CTEST(test_sum10000days241, calc_Bklad)
     int result = Bklad (10000,241);
 
     // Then
-    int expected = 11200;
+    int expected = 12200;
     ASSERT_EQUAL(expected, result);
 }
 //////////////////////////////////////
@@ -123,7 +123,7 @@ CTEST(test_sum110000days241, calc_Bklad)
     int result = Bklad (110000,365);
 
     // Then
-    int expected = 126500;
+    int expected = 123222;
     ASSERT_EQUAL(expected, result);
 }
 
